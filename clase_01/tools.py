@@ -12,7 +12,7 @@ def ponComa( numero ):
     fraccion = numero - entero
     cadena = str( numero )
 
-    if 0.0 != fraccion:
+    if cadena.find('.'): 
         indice = len( str( entero ) )
     else:
         indice = len( cadena )

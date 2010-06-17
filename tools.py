@@ -1,3 +1,8 @@
+'''Herramientas para PythonCabal
+
+Rutinas para todo el grupo
+'''
+
 def ponComa( numero ):
     '''Regresa numero como cadena con comas.
 
